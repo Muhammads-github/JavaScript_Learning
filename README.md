@@ -1,0 +1,1 @@
+Hi this a learning github repository, here i am learning JavaScript.
