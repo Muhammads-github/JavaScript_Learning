@@ -30,3 +30,27 @@ let myObj = {
 const muFunction = function () {
   console.log("This is a function");
 };
+
+// ++++++++ Memory ++++++++++
+
+// Stack (Primitive),  Heap (Non-Primitive)
+
+let firstName = "Rock";
+
+let anotherFirstName = firstName;
+
+anotherFirstName = "John";
+
+console.log(anotherFirstName);
+console.log(firstName);
+
+let userOne = {
+  email: "userOne@email.com",
+  userId: "userOneId",
+};
+let userTwo = userOne;
+
+userTwo.email = "userTwo@emil.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
