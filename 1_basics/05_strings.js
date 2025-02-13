@@ -16,11 +16,17 @@ const gameName = new String("Fortnight");
 // console.log(gameName.indexOf("i"));
 
 const newString = gameName.substring(0, 5); // subtract the string
-console.log(newString);
+// console.log(newString);
 
 const anotherString = gameName.slice(4, 9); // slice the string
-console.log(anotherString);
+// console.log(anotherString);
 
 const newStringOne = "  rock    0";
-console.log(newStringOne);
-console.log(newStringOne.trim()); // trim removers starting space and end spaces
+// console.log(newStringOne);
+// console.log(newStringOne.trim()); // trim removers starting space and end spaces
+
+const url = "https://youtube.com/free-code%20camp";
+
+console.log(url.replace("%20", "-"));
+
+console.log(url.includes("camp"));
